@@ -1,0 +1,7 @@
+
+This program is a class implementation of a Stack data structure using a list.
+It will create a stack with size from an input from user and add that amount of elements,
+which are also given by the user. It will finish by showing and removing all elements of
+the stack and demostrating to the user that the stack is empty.
+
+Enter the desired size of the stack, only integers: 
