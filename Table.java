@@ -337,15 +337,15 @@ class HandPanel extends JPanel
 		//model = hand.createSelectionModel();
 
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-//		add(Box.createGlue());
+		add(Box.createGlue());
 		JLabel label = new JLabel(name);
 		label.setAlignmentX(Component.CENTER_ALIGNMENT);
 		add(label);
 		stack.setAlignmentX(Component.CENTER_ALIGNMENT);
-//		add(Box.createGlue());
+		add(Box.createGlue());
 		add(stack);
 		deck.setAlignmentX(Component.CENTER_ALIGNMENT);
-//		add(Box.createGlue());
+		add(Box.createGlue());
 		add(deck);
 		lay.setAlignmentX(Component.CENTER_ALIGNMENT);
 		add(lay);
